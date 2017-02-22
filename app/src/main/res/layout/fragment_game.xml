@@ -1,0 +1,29 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="finomena.yedu.com.f_dance.ui.GameFragment"
+   >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:id="@+id/game_layout"
+        android:layout_above="@+id/textView"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    </TableLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textColor="@color/colorPlayerOne"
+        android:id="@+id/textView"
+        />
+</RelativeLayout>
